@@ -8,6 +8,7 @@ defmodule IdiomPhoenixExample.Application do
   @impl true
   def start(_type, _args) do
     children = [
+      Idiom,
       # Start the Telemetry supervisor
       IdiomPhoenixExampleWeb.Telemetry,
       # Start the Ecto repository

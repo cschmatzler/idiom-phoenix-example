@@ -7,6 +7,11 @@
 # General application configuration
 import Config
 
+config :idiom,
+  default_locale: "en",
+  default_fallback: "en",
+  default_namespace: "default"
+
 config :idiom_phoenix_example,
   ecto_repos: [IdiomPhoenixExample.Repo]
 

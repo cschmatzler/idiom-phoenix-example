@@ -32,6 +32,8 @@ defmodule IdiomPhoenixExample.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
+      # {:idiom, "~> 0.3.0"},
+      {:idiom, path: "../idiom"},
       {:phoenix, "~> 1.7.7"},
       {:phoenix_ecto, "~> 4.4"},
       {:ecto_sql, "~> 3.10"},
